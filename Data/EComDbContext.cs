@@ -18,6 +18,7 @@ namespace EComMVCProject.Data
 
 
         }
+        public DbSet<EComMVCProject.Models.Test> Test { get; set; } = default!;
 
 
     }
